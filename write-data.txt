@@ -1,0 +1,1 @@
+ini hasil write data dari Golang
