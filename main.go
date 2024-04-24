@@ -22,11 +22,11 @@ func main() {
 	}
 
 	// Membuat direktori test
-	err = os.Mkdir("test", os.ModePerm)
-	if err != nil {
-		panic(err)
-	}
-	fmt.Println("Success create directory")
+	// err = os.Mkdir("test", os.ModePerm)
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// fmt.Println("Success create directory")
 
 	// Membaca isi file test.txt
 	fileContent, err := os.ReadFile("test.txt")
